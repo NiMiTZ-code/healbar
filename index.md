@@ -33,22 +33,18 @@ There are going to be several ways to provide Engine with data:
 - State tiles / How do you feel now? (Web & Mobile)
 
 User will have access to it's own dashboard. It will be possible to find there Quick Actions (Tiles/Take Quiz/Write in Diary), chart with actual Healbar Score (scale which makes it visually easy to know on which health level user is), user history and section with results and recommendations. 
-Later it is possible to add an integration with healthcare providers in order to give those informations straight to the doctor to whom it will be possible to make an appointement through the app.
+Later it is possible to add an integration with healthcare providers in order to give those informations straight to the doctor to whom it will be possible to make an appointment through the app.
 
-```markdown
-Syntax highlighted code block
+**Daily diary**
+User will be able to provide the engine with handwritten or voice inputted diary. This will require him to explain how did he feel during the day, if there were any pains, problems or symptoms that made his attention. The engine, using natural language recognition, will highlight most important for algorithm informations and basing on those, present the diagnosis. Taking in consideration the _power_ of possible sickness will increase or decrease the health score. Also, if there will be any infomrations on positive behavior, they will also be taken into consideration in order to raise the score.
 
-# Header 1
-## Header 2
-### Header 3
+**Daily questions**
+If agreed, user will get push notifications with CTA to fill the diary or answer few short questions in a survey. This way in fast way, the health score can be monitored regularly and in convenient way. 
 
-- Bulleted
-- List
+User can also agree for tracking and get personalized notifications, for example: app detected that user spend 3 hours in a pub -> this will fire the notification after arriving home/in the end of the day/specified by the user time -> user will answer the question (e.g. How many drinks did you have?) -> basing on the answer adjust the score. In similar way it can also get sport activity from other apps or basing on built-in tracker.
 
-1. Numbered
-2. List
+**State Tiles**
+Easy to access and understand tiles with the most relevant feelings/symptoms that user can pick on home screen of the app. By tapping/clicking the tile user provides the algorithm with good starting point to diagnose later. If the tile belongs to crucial symptoms it will fire more detailed health checkup (Quiz/Chatbot).
 
-**Bold** and _Italic_ and `Code` text
 
-[Link](url) and ![Image](src)
-```
+
